@@ -1,7 +1,7 @@
 """
-Module to create TenneT RAG Tool for integration with OpenWebUI.
+Module to create RAG Tool for integration with OpenWebUI using MCP.
 
-Title: Tennet RAG Tool
+Title: RAG Tool
 Author: Ivan Khrop
 Date: 2025-06-13
 """

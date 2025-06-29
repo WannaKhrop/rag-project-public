@@ -1,7 +1,7 @@
 """
-Module to create TenneT RAG Pipeline for integration with OpenWebUI.
+Module to create custom RAG Pipeline for integration with OpenWebUI.
 
-Title: Tennet RAG Pipeline
+Title: RAG Pipeline
 Author: Ivan Khrop
 Date: 2025-06-13
 """
@@ -12,7 +12,7 @@ from typing import List, Union, Generator, Iterator, Any, Optional
 
 
 class Pipeline:
-    """TenneT RAG Pipeline Class with methods required for OpenWebUI."""
+    """RAG Pipeline Class with methods required for OpenWebUI."""
 
     class Valves(BaseModel):
         """Important configuration data for Pipeline."""
@@ -27,7 +27,7 @@ class Pipeline:
         # The identifier must be unique across all pipelines.
         # The identifier must be an alphanumeric string that can include underscores or hyphens. It cannot contain spaces, special characters, slashes, or backslashes.
 
-        self.name = "TenneT RAG Pipeline"
+        self.name = "RAG Pipeline"
         self.valves = self.Valves()
         self.tools = None
 
