@@ -39,13 +39,13 @@ This RAG system was evaluated using the [**RAGAS Wiki Dataset**](https://hugging
 
 | Metric                 | Value |
 |------------------------|-------|
-| **Answer Rate**        | 80%   |
-| Context Precision      | 0.85  |
-| Context Recall         | 0.66  |
-| Faithfulness           | 0.90  |
-| Response Relevance     | 0.73  |
-| Factual Correctness    | 0.46  |
-| Semantic Similarity    | 0.70  |
+| **Answer Rate**        | 97.4% |
+| Context Precision      | 0.86  |
+| Context Recall         | 0.69  |
+| Faithfulness           | 0.87  |
+| Response Relevance     | 0.75  |
+| Factual Correctness    | 0.54  |
+| Semantic Similarity    | 0.68  |
 
 ---
 
